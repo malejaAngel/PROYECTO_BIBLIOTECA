@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Titulo de ejemplo</title>
+    <link rel="stylesheet" href="css/index.css" />
+
+    
+    <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 </head>
 <body>
-    Hola mundo 
+    <form class="box" >
+      <div class="container-fluid">
+        <div class="row">
+            <div class="imagen col-12">
+               <a href="index.html" title="TITULO EL TIEMPO">
+                <img src="img/biblioteca1.JPG" alt="nombre de la empresa" />
+                </a>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+              <input class="form-control" type="text" id="nombre" name="txtNombre" maxlength="20" 
+                      placeholder="Ingrese Nombre"></input>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <input class="form-control" type="password" id="nombre" name="txtClave" maxlength="20" 
+                    placeholder="Ingrese Clave"></input>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <button type="button" class="estilo-boton btn btn-danger" onclick="validar()">Ingresar</button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <script src="js/index.js"></script>
 </body>
 </html>
